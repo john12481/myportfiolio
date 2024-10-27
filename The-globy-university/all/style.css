@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(9, 8, 8, 0.5),
+      rgba(7, 7, 7, 0.5)
+    ),
+    url("./images/university.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+nav h1 {
+  color: white;
+  font-size: 30px;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 8px;
+}
+.navlinks li::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: orangered;
+  transition: 0.5s ease;
+}
+.navlinks li:hover::after {
+  width: 100%;
+}
+.navlinks li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.hero-text h1 {
+  font-size: 30px;
+}
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hero-text a {
+  border: 1px solid white;
+  padding: 10px;
+}
+.hero-text .btn {
+  cursor: pointer;
+}
+.hero-text a:hover {
+  background-color: orangered;
+  border-radius: 5px;
+  border: 2px solid orangered;
+  transition: 0.6s;
+}
+.menu {
+  color: white;
+  display: none;
+}
+.close i {
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 12px;
+  color: orangered;
+  display: none;
+}
+.section-tittle {
+  text-align: center;
+}
+.section-tittle h1 {
+  margin-top: 30px;
+}
+.section-tittle p {
+  color: gray;
+  margin-bottom: 20px;
+}
+.course-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.course-cards .course {
+  background-color: rgb(245, 193, 125);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.course h1 {
+  margin-bottom: 10px;
+}
+.course p {
+  color: grey;
+}
+.course:hover {
+  box-shadow: 15px 0px 15px 0px;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+}
+.image .campus-img {
+  width: 30%;
+  position: relative;
+}
+.image .campus-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.hover-box {
+  position: absolute;
+  background-color: orangered;
+  top: 0;
+  opacity: 50%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: none;
+  color: white;
+}
+.image .campus-img:hover .hover-box {
+  display: block;
+}
+.testimonial {
+  margin-top: 30px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.testimonial-box {
+  background-color: rgb(226, 182, 124);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 45%;
+  border-radius: 10px;
+}
+.text {
+  padding: 10px;
+}
+.text p {
+  margin-bottom: 10px;
+}
+
+.testimonial-box img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.stars {
+  font-size: 20px;
+  background-color: white;
+  width: 83px;
+  color: gold;
+}
+
+.callto {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(9, 8, 8, 0.5),
+      rgba(7, 7, 7, 0.5)
+    ),
+    url(../all/images/campus3.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.call h1 {
+  color: white;
+}
+.call a {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+}
+.call a:hover {
+  background-color: orangered;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.about {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.about p {
+  margin-top: 10px;
+}
+.about i {
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.about i:hover {
+  color: orangered;
+}
+footer {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(235, 179, 106);
+  width: 100%;
+  gap: 10px;
+}
+.footer-text {
+  width: 30%;
+}
+.footer-text h1 {
+  color: orangered;
+}
+.footer-text p {
+  color: black;
+  padding: 8px;
+}
+.action-links {
+  width: 25%;
+}
+.action-links h1 {
+  color: orangered;
+}
+.action-links li {
+  list-style: none;
+}
+.action-links a {
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  gap: 20px;
+}
+.newsletter {
+  width: 30%;
+}
+.newsletter h1 {
+  color: orangered;
+  margin-top: 10px;
+}
+.newsletter input {
+  border: none;
+  height: 30px;
+  width: 300px;
+  margin-top: 10px;
+}
+.newsletter :placeholder-shown {
+  text-align: center;
+}
+.newsletter button {
+  background-color: orangered;
+  color: white;
+  margin-top: 10px;
+  width: 90px;
+  height: 30px;
+  border: none;
+}
+.newsletter p {
+  margin-top: 10px;
+}
+@media (max-width: 700px) {
+  .navlinks {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    background-color: orangered;
+    z-index: 10;
+    width: 150px;
+    height: 100vh;
+    transition: 1s ease;
+  }
+  .navlinks li {
+    display: block;
+    padding: 20px;
+  }
+  .hero-text {
+    width: 80%;
+  }
+  .menu {
+    display: block;
+  }
+  .menu:hover + .navlinks {
+    right: 0;
+  }
+  .close i {
+    display: inline-block;
+  }
+  .course-cards {
+    flex-direction: column;
+  }
+  .course {
+    width: 100%;
+  }
+  .image {
+    flex-direction: column;
+  }
+  .image .campus-img {
+    width: 100%;
+    margin: 10px;
+  }
+  .testimonial-container {
+    flex-direction: column;
+  }
+  .testimonial-box {
+    width: 90%;
+    margin: 10px;
+  }
+  footer {
+    display: block;
+  }
+}

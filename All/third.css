@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.login-box {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.login-box h1 {
+  font-family: "Grand Hotel", cursive;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.login-box button[type="submit"] {
+  background-color: #3897f0;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.or {
+  margin: 20px 0;
+  color: #8e8e8e;
+  position: relative;
+}
+
+.or:before,
+.or:after {
+  content: "";
+  display: block;
+  width: 45%;
+  height: 1px;
+  background-color: #dbdbdb;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.or:before {
+  left: 0;
+}
+
+.or:after {
+  right: 0;
+}
+
+.fb-login {
+  background-color: #4267b2;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.forgot-password {
+  color: #00376b;
+  font-size: 12px;
+}
+
+.signup {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.signup a {
+  color: #3897f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.get-app {
+  font-size: 14px;
+}
+
+.get-app p {
+  margin-bottom: 20px;
+}
+
+.app-stores img {
+  width: 135px;
+  margin: 10px;
+}

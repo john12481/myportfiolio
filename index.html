@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ba952cf49c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Persional Portfolio</title>
+  </head>
+  <body>
+     <div id="header">
+      <div class="container">
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+        <div class="content"></div>
+
+        <nav>
+          <img src="./download.jpeg" />
+          <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </div>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="https://wa.me/2348166749684">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header_text">
+          <p>Frontend Website Developer</p>
+          <h1>
+            Hi, I'm <span>John</span> <br />
+            Akpoghene From Nigeria
+          </h1>
+        </div>
+      </div>
+    <!-- <div id="header">
+      <div class="container">
+        <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content">
+</div
+
+        <nav>
+          <img src="./download.jpeg" />
+          
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="https://wa.me/2348166749684">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header_text">
+          <p>Frontend Website Developer</p>
+          <h1>
+            Hi , I'm <span> John </span> <br />
+            Akpoghene From Nigeria
+          </h1>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- About Section is Started -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./IMG_20240324_070256_137.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello, am a frontend Website Developer, studied in Nigerian Navy
+              Secondary School, Currently a student of The University of Delta
+              State Agbor,Studing Mechatronics Engineering. I have Currently
+              2Yrs of Experience And am really Good in What i do. Some of my
+              Works Are Login-Pages,Farming Website,E-commerce Website,
+              Resturant Website, My Tech Stack:Html ,Css ,JavaScript Also
+              familair With version controls Like Git And GitHub
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Graphics</span><br />Designing Projects and presentaions
+                  interface
+                </li>
+                <br />
+                <li>
+                  <span>Web Development</span><br />Designing Web/App
+                  Web-Development
+                </li>
+                <br />
+                <li><span>content</span> <br />Adverstising contents</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Graphics</span><br />I Have 5yrs Experience in
+                  presentaions Designing
+                </li>
+                <br />
+                <li>
+                  <span>Web Development</span><br />I Have 2Yrs Experience In
+                  Web-Development
+                </li>
+                <br />
+                <li>
+                  <span>contents</span> <br />Not much experience in this but
+                  still learning
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Graphics</span><br />Ventis Academy</li>
+                <br />
+                <li>
+                  <span>Web Development</span><br />CodeBadger Tech Training
+                  Academy
+                </li>
+                <br />
+                <li><span>contents</span> <br />self Learned</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------------------Services ------------------------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Graphics</h2>
+            <p>
+              So Far Graphics Designing is About Creating And Designing of Any
+              presentaions And projects I Have Designed A lot of presentaions
+              and projects, such as University projects,High School presentaions
+              Business Ideas presentaions And Lots More of Beautiful Works
+            </p>
+            <a href="https://wa.me/2348166749684">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-uikit"></i>
+            <h2>Web Development</h2>
+            <p>
+              Web-Development is all about Designing and Creating of any kind of
+              Website, But am Currently a Frontend Web-Developer,Hoping to learn
+              backend as time goes on. Am really good in Frontend
+              Web-Development expecially Html And Css, But i aslo use
+              JavaScript. My works are Beautiful and a lot of customers have
+              testified. works such as Resturant Website,Login-Pages,Portfolio
+              Website,Blog Website E.T.C ....
+            </p>
+            <a href="https://wa.me/2348166749684">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>contents</h2>
+            <p>
+              This is mostly for Business Adverstising and content creators, to
+              help promote their amazing works, But am not Currently that good
+              in it though, but still learning...
+            </p>
+            <a href="https://wa.me/2348166749684">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- Portfolio-->
+
+    <div id="portfolio">
+      <div class="container">
+        <div class="sub-title">
+          <h1>My work</h1>
+        </div>
+        <div class="work-list">
+          <div class="work">
+            <img src="./download (1).jpg" />
+            <div class="layer">
+              <h3>E-commerces Website</h3>
+              <p>
+                This Website helps Adverstising and keep Record of stocks in
+                Your Shopping mall
+              </p>
+              <a href=".//ecom/ecom.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./The-globy-university/all/images/university.jfif" />
+            <div class="layer">
+              <h3>educational Website</h3>
+              <p>
+               This is a eductional website for schools and University
+              </p>
+              <a href="./The-globy-university/all/index.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+           <div class="work">
+            <img src="./download (2).jpg" />
+            <div class="layer">
+              <h3>Portfoili Website</h3>
+              <p>
+               This is a simple blog/portfolio website 
+              </p>
+              <a href="./portblog/index.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+             <div class="work">
+            <img src="./How-to-Start-an-Online-Restaurant-in-Nigeria.png" />
+            <div class="layer">
+              <h3>Resturant Website</h3>
+              <p>
+                This Website helps Adverstising and keep Record of stocks in
+                Your Resturant
+              </p>
+              <a href="./restu/index.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="./download.jpg"
+            />
+            <div class="layer">
+              <h3>sign pages</h3>
+              <p>Any type of sign pages avaliable</p>
+              <a href="./sign in/index.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="./creative-website-template-designs-illustration-concepts-of-web-page-design-for-website-and-mobile-website-easy-to-edit-and-customize-vector.jpg"
+            />
+            <div class="layer">
+              <h3>Simple Web-page</h3>
+              <p>
+                A sample of any Website page Design to give ant idea to the
+                customers
+              </p>
+              <a href="./All/first.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="./do-design-digital-business-card-in-24-hours-for-mobile.jpg"
+            />
+            <div class="layer">
+              <h3>Digital id-card</h3>
+              <p>A Graphics Design of a simple Digital Id-card</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./Awwwards-Nominee_-Spinx-Digital.png" />
+            <div class="layer">
+              <h3>learning Website</h3>
+              <p>
+              A programming company website that teaches all 
+              about tech            
+                
+              </p>
+              <a href="./main/project.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+
+            <section id="contact" class="section contact">
+      <h2 class="zoom-in">Contact Us</h2>
+      <form id="contact-form">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+          class="input-fade"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+          class="input-fade"
+        />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          required
+          class="input-fade"
+        ></textarea>
+        <button type="submit" class="btn slide-in">Send</button>
+      </form>
+    </section>
+
+        <footer>
+          <div class="footer-container">
+            <div class="footer-section address">
+              <h4>Address</h4>
+              <p>No. 20 eka street, of orhokpokor aghbaro, Delta State, Ng.</p>
+              <p>📞 +234 9072210059</p>
+              <p>✉ akposj423@gmail.com</p>
+            </div>
+            <div class="footer-section links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Terms_of_service#:~:text=Terms%20of%20service%20(also%20known,to%20use%20the%20offered%20service."
+                    >Terms of Service</a
+                  >
+                </li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="https://wa.me/2348166749684">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="footer-section newsletter">
+              <div class="social-icons">
+                <a href="https://wa.me/2348166749684"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.linkedin.com/in/akpos-john-80aa4225a?"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="http://vm.tiktok.com/ZMrwK4ANW/"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>
+              &copy; Copyright 2024 All Right Reserved,
+              <span>John Tech Hubs</span>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+       var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      function toggleMenu() {
+        var navList = document.querySelector(".nav-list");
+        navList.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
